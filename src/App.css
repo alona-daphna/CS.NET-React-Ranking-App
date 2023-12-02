@@ -1,0 +1,103 @@
+﻿#root {
+  max-width: 1280px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.nav-item {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  cursor: pointer;
+}
+
+.unranked-cell .img {
+  height: 80px;
+  width: 80px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.image-carousel {
+  max-width: 1040px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.tier-container {
+  display: flex;
+  flex-direction: column;
+  background: #1a1a17;
+  max-width: 1040px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.tier-row {
+  display: flex;
+  min-height: 80px;
+  border-bottom: solid 1px #000;
+  border-top: solid 1px #000;
+}
+
+.tier-label {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a1a17;
+}
+
+.tier-label span {
+  color: #333;
+  overflow: hidden;
+  text-align: center;
+  margin: 5px;
+}
+
+.tier-sort {
+  flex: 1;
+}
+
+.sorted-img {
+  height: 80px;
+  width: 80px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+input[type='file'] {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  box-sizing: border-box;
+  border-radius: 0;
+  max-width: 1040px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.primary-btn {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  background: none;
+  border: 2px solid #535bf2;
+  border-radius: 6px;
+  color: #535bf2;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: #535bf2;
+  color: #000;
+}
